@@ -17,6 +17,8 @@ sessions and a Codex agent). It is meant to be copied and adapted.
 | **Workers (pools)** | 2-5 sessions per project | one task card each; reviewing other workers' changes | editing the ledger, board or decisions |
 
 ## What's in here
+- `BOOT.md`: **start here.** The Owner pastes one line per session, and the agent sets itself up (or re-boots
+  after a restart).
 - `protocol/CEO_CHARTER.md`: what the CEO owns and never does; cadence; how it talks to leads.
 - `protocol/HANDOFF_PROTOCOL.md`: lead <-> reviewer <-> workers: ledger, signals, task cards, review/merge gate.
 - `protocol/RULES.md`: the hard-won rules (time, real-path checks, NEXT lists, approvals, secrets, resources).
@@ -27,6 +29,7 @@ sessions and a Codex agent). It is meant to be copied and adapted.
   changed.
 
 ## Getting started
+**Fastest:** follow `BOOT.md`. The steps below are the same thing done by hand.
 1. Create a private repo for the CEO (copy `templates/` into it; configure `bin/check-sources.sh`).
 2. Give each project a lead session and a `PENDING.md` with a **STATE OF PLAY** section (template) and a NEXT
    list.
